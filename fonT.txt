@@ -1,0 +1,32 @@
+/* 
+
+var mySong = document.getElementById("mySong");
+var icon = document.getElementById("icon");
+
+icon.onclick = function msg() {
+  if (mySong.paused) {
+    mySong.play();
+    icon.src = "./pause.png";
+  } else {
+    mySong.pause();
+    icon.src = "./play.png";
+  }
+};
+ */
+/* 
+var mySong = document.getElementById("mySong");
+var icon = document.getElementById("icon");
+
+const myObj = {
+  tree: function () {
+    if (mySong.paused) {
+      mySong.play();
+      icon.src = "./pause.png";
+    } else {
+      mySong.pause();
+      icon.src = "./play.png";
+    }
+  },
+};
+icon.onclick = myObj.tree();
+  */
